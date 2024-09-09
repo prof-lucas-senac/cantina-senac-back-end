@@ -1,4 +1,3 @@
-public interface ITela
-{
+public interface ITela {
     public void ExibirTela();
 }

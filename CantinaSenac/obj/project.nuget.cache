@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IcP2AcOX4mNtXHHkBsWBLij3hJONYb+yz/WI9w3ScmnMDGghkAfVKhpqumFRpFVuR2rb08X7xqinOcM5SCV66w==",
+  "dgSpecHash": "6YB3Rcghwfw=",
   "success": true,
-  "projectFilePath": "C:\\workplace\\CantinaSenac\\CantinaSenac\\CantinaSenac.csproj",
+  "projectFilePath": "C:\\workplace\\beck-end\\cantina-senac-back-end\\CantinaSenac\\CantinaSenac.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
