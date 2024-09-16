@@ -1,5 +1,8 @@
 public class TelaCadastroAdministrador : ITela
 {
+    public TelaCadastroAdministrador() {
+        ExibirTela();
+    }
     public void ExibirTela() {
         string nomeUsuario;
         string email;
@@ -16,7 +19,12 @@ public class TelaCadastroAdministrador : ITela
         System.Console.WriteLine("Insira a sua foto de perfil");
         foto = Console.ReadLine();
 
-        TelaLogin telaLogin = new TelaLogin();
-        telaLogin.ExibirTela();
+        Database.Administrador.NomeDoUsuario = nomeUsuario;
+        Database.Administrador.Email = email;
+        Database.Administrador.Senha = senha;
+        Database.Administrador.Foto = foto;
+        Database.Administrador.Status = 1;
+
+        new TelaLogin();
     }
 }
