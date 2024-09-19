@@ -1,0 +1,4 @@
+class TelaFeedback
+{
+    // Código
+}
