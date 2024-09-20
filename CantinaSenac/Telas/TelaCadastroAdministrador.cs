@@ -19,11 +19,11 @@ public class TelaCadastroAdministrador : ITela
         System.Console.WriteLine("Insira a sua foto de perfil");
         foto = Console.ReadLine();
 
-        // Database.Administrador.NomeDoUsuario = nomeUsuario;
-        // Database.Administrador.Email = email;
-        // Database.Administrador.Senha = senha;
-        // Database.Administrador.Foto = foto;
-        // Database.Administrador.Status = 1;
+        Database.Administrador.NomeDoUsuario = nomeUsuario;
+        Database.Administrador.Email = email;
+        Database.Administrador.Senha = senha;
+        Database.Administrador.Foto = foto;
+        Database.Administrador.Status = 1;
 
         new TelaLogin();
     }
