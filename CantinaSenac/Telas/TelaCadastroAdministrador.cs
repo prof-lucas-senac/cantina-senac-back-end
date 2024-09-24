@@ -4,6 +4,9 @@ public class TelaCadastroAdministrador : ITela
         ExibirTela();
     }
     public void ExibirTela() {
+        AdministradorDAO administradorDAO = new AdministradorDAO();
+        administradorDAO.Adicionar(new Administrador());
+        return;
         string nomeUsuario;
         string email;
         string senha;
