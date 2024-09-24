@@ -4,6 +4,11 @@ public class TelaCadastroAdministrador : ITela {
     }
 
     public void ExibirTela() {
+
+        AdmnistradorDAO admnistradorDAO = new AdmnistradorDAO();
+        admnistradorDAO.Adicionar(new Administrador());
+        return;
+
         string nomeUsuario;
         string email;
         string senha;

@@ -1,7 +1,7 @@
 using MySql.Data.MySqlClient;
 
 public class Conexao {
-    string stringConexao = "Server=localhost;Port=3306;Database=CantinaSenacAdo;Uid=root;Pwd=MinhaSenha;";
+    string stringConexao = "Server=localhost;Port=3306;Database=CantinaSenacAdo;Uid=root;Pwd=";
 
     public MySqlConnection Criar() {
         MySqlConnection conexao;

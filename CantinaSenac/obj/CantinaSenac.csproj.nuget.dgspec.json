@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\workplace\\cantinaSenacArthur\\cantina-senac-back-end\\CantinaSenac\\CantinaSenac.csproj": {}
+    "c:\\workplace\\cantinaSenacArthur\\cantina-senac-back-end\\CantinaSenac\\CantinaSenac.csproj": {}
   },
   "projects": {
-    "C:\\workplace\\cantinaSenacArthur\\cantina-senac-back-end\\CantinaSenac\\CantinaSenac.csproj": {
+    "c:\\workplace\\cantinaSenacArthur\\cantina-senac-back-end\\CantinaSenac\\CantinaSenac.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\workplace\\cantinaSenacArthur\\cantina-senac-back-end\\CantinaSenac\\CantinaSenac.csproj",
+        "projectUniqueName": "c:\\workplace\\cantinaSenacArthur\\cantina-senac-back-end\\CantinaSenac\\CantinaSenac.csproj",
         "projectName": "CantinaSenac",
-        "projectPath": "C:\\workplace\\cantinaSenacArthur\\cantina-senac-back-end\\CantinaSenac\\CantinaSenac.csproj",
+        "projectPath": "c:\\workplace\\cantinaSenacArthur\\cantina-senac-back-end\\CantinaSenac\\CantinaSenac.csproj",
         "packagesPath": "C:\\Users\\Prog_Sis\\.nuget\\packages\\",
-        "outputPath": "C:\\workplace\\cantinaSenacArthur\\cantina-senac-back-end\\CantinaSenac\\obj\\",
+        "outputPath": "c:\\workplace\\cantinaSenacArthur\\cantina-senac-back-end\\CantinaSenac\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Prog_Sis\\AppData\\Roaming\\NuGet\\NuGet.Config"
