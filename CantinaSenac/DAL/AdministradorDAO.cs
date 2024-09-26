@@ -14,6 +14,8 @@ public class AdministradorDAO
             
             MySqlCommand comando = new MySqlCommand(sql, conexao);
             comando.ExecuteNonQuery();
+
+            
         }
         catch (System.Exception e)
         {
