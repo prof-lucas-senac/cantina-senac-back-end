@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "d1IJ3DUyi0/QCo9D/v24xMPaJRTs8VtN7lA/NktxwzxaBIwzBOOymfQaFYEAWw5LfrAkw3m2mrsVYkNVEAAM1Q==",
+  "dgSpecHash": "r06TKWX7ILPU67jbXN5cxRVhzhRrE6nmwMNSBDtDHXkt22IGQF0pwa9e/qdrx2sNDuIdzzyI9yuGjI7w+ksDLw==",
   "success": true,
-  "projectFilePath": "C:\\workplace\\cantinaSenacArthur\\cantina-senac-back-end\\CantinaSenac\\CantinaSenac.csproj",
+  "projectFilePath": "c:\\workplace\\cantinaSenacArthur\\cantina-senac-back-end\\CantinaSenac\\CantinaSenac.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Prog_Sis\\.nuget\\packages\\bouncycastle.cryptography\\2.3.1\\bouncycastle.cryptography.2.3.1.nupkg.sha512",
     "C:\\Users\\Prog_Sis\\.nuget\\packages\\google.protobuf\\3.26.1\\google.protobuf.3.26.1.nupkg.sha512",
