@@ -13,7 +13,6 @@ public class TelaLogin : ITela
         usuario = Console.ReadLine();
         System.Console.WriteLine("Insira sua senha:");
         senha = Console.ReadLine();
-
         
         if (usuario == Database.Administrador.NomeDoUsuario)
         {

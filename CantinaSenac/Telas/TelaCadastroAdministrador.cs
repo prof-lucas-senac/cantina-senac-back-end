@@ -4,9 +4,7 @@ public class TelaCadastroAdministrador : ITela
         ExibirTela();
     }
     public void ExibirTela() {
-        AdministradorDAO administradorDAO = new AdministradorDAO();
-        administradorDAO.Adicionar(new Administrador());
-        return;
+        
         string nomeUsuario;
         string email;
         string senha;
@@ -22,11 +20,16 @@ public class TelaCadastroAdministrador : ITela
         System.Console.WriteLine("Insira a sua foto de perfil");
         foto = Console.ReadLine();
 
-        Database.Administrador.NomeDoUsuario = nomeUsuario;
-        Database.Administrador.Email = email;
-        Database.Administrador.Senha = senha;
-        Database.Administrador.Foto = foto;
-        Database.Administrador.Status = 1;
+        Administrador administrador = new Administrador() {
+            NomeDoUsuario = nomeUsuario,
+            Email = email,
+            Senha = senha,
+            Foto = foto,
+            Status = 1
+        };
+
+        AdministradorDAO administradorDAO = new AdministradorDAO();
+        administradorDAO.Adicionar(administrador);
 
         new TelaLogin();
     }
