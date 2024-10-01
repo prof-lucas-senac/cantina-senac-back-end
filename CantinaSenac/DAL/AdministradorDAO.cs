@@ -55,4 +55,48 @@ public class AdministradorDAO
             return null;
         }
     }
+    public void Atualizar(Administrador administrador){
+        try
+        {
+            MySqlConnection conexao = new Conexao().Criar();
+            conexao.Open();
+
+            string sql = "UPDATE Administrador SET nomeUsuario = @nomeUsuario, "+
+                         "email = @email, senha = @senha, status = @status, " +
+                         "foto = @foto WHERE id = @id;";
+            
+            MySqlCommand comando = new MySqlCommand(sql, conexao);
+            comando.Parameters.AddWithValue("@nomeUsuario", administrador.NomeDoUsuario);
+            comando.Parameters.AddWithValue("@email", administrador.Email);
+            comando.Parameters.AddWithValue("@senha", administrador.Senha);
+            comando.Parameters.AddWithValue("@status", administrador.Status);
+            comando.Parameters.AddWithValue("@foto", administrador.Foto);
+            comando.Parameters.AddWithValue("@id", administrador.Id);
+
+            comando.ExecuteNonQuery();
+            System.Console.WriteLine("Administrador atualizado com sucesso");
+        }
+        catch (System.Exception e)
+        {
+            System.Console.WriteLine(e.Message);
+        }
+    }
+    public void Deletar(Administrador administrador){
+        try
+        {
+            MySqlConnection conexao = new Conexao().Criar();
+            conexao.Open();
+
+            string sql = "DELETE FROM Administrador WHERE id = @id;";
+
+            MySqlCommand comando = new MySqlCommand(sql, conexao);
+            comando.Parameters.AddWithValue("@id", administrador.Id);
+
+            comando.ExecuteNonQuery();
+        }
+        catch (System.Exception e)
+        {
+            System.Console.WriteLine(e.Message);
+        }
+    }
 }

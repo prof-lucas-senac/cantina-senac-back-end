@@ -13,13 +13,16 @@ public class TelaLogin : ITela
         usuario = Console.ReadLine();
         System.Console.WriteLine("Insira sua senha:");
         senha = Console.ReadLine();
-        
-        if (usuario == Database.Administrador.NomeDoUsuario)
-        {
-            System.Console.WriteLine("Usuário encontrado com sucesso;");
-        } else
-        {
-            System.Console.WriteLine("Usuário não encontrado");
+
+        AdministradorDAO administradorDAO = new AdministradorDAO();
+        List<Administrador> administradores = administradorDAO.ListarTodos();
+
+        foreach (Administrador administrador in administradores){
+            if (usuario == administrador.NomeDoUsuario) {
+                System.Console.WriteLine("Usuário encontrado com sucesso;");
+            } else {
+                System.Console.WriteLine("Usuário não encontrado");
+            }
         }
     }
 }
