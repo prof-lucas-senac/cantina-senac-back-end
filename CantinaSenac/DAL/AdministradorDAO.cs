@@ -1,4 +1,5 @@
 using MySql.Data.MySqlClient;
+using Mysqlx.Crud;
 
 public class AdministradorDAO {
     public void Adicionar(Administrador administrador) {
@@ -34,7 +35,7 @@ public class AdministradorDAO {
             MySqlDataReader leitor = comando.ExecuteReader();
 
             while (leitor.Read()) {
-                Administrador administrador = new Administrador(){
+                Administrador administrador = new Administrador() {
                     NomeUsuario = Convert.ToString(leitor["nomeUsuario"]),
                     Email = Convert.ToString(leitor["email"]),
                     Senha = Convert.ToString(leitor["senha"]),
@@ -45,6 +46,46 @@ public class AdministradorDAO {
             }
 
             return administradores;
+        }
+        catch (Exception e) {
+            Console.WriteLine(e.Message);
+            throw;
+        }
+    }
+
+    public void Atualizar(Administrador administrador) {
+        try {
+            MySqlConnection conexao = new Conexao().Criar();
+            conexao.Open();
+
+            string sql = "UPDATE Administrador SET nomeUsuario = @nomeUsuario, email = @email, senha = @senha, status = @stutus, foto = @foto WHERE id = @id;";
+
+            MySqlCommand comando = new MySqlCommand(sql, conexao);
+            comando.Parameters.AddWithValue("@nomeUsuario", administrador.NomeUsuario);
+            comando.Parameters.AddWithValue("@email", administrador.Email);
+            comando.Parameters.AddWithValue("@senha", administrador.Senha);
+            comando.Parameters.AddWithValue("@status", administrador.Status);
+            comando.Parameters.AddWithValue("@foto", administrador.Foto);
+            comando.ExecuteNonQuery();
+
+            Console.WriteLine("Administrador atualizado com sucesso");
+            
+        }
+        catch (Exception e) {
+            Console.WriteLine(e.Message);
+            throw;
+        }
+    }
+    public void Deletar(Administrador administrador) {
+        try {
+            MySqlConnection conexao = new Conexao().Criar();
+            conexao.Open();
+
+            string sql = "DELETE FROM Administrador WHERE id = @id";
+
+            MySqlCommand comando = new MySqlCommand(sql, conexao);
+            comando.Parameters.AddWithValue("@id", administrador.Id);
+            comando.ExecuteNonQuery();
         }
         catch (Exception e) {
             Console.WriteLine(e.Message);
