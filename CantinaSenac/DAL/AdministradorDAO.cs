@@ -3,7 +3,6 @@ using Mysqlx.Crud;
 
 public class AdministradorDAO {
     public void Adicionar(Administrador administrador) {
-
         try {
             MySqlConnection conexao = new Conexao().Criar();
             conexao.Open();
@@ -49,7 +48,7 @@ public class AdministradorDAO {
         }
         catch (Exception e) {
             Console.WriteLine(e.Message);
-            throw;
+            return null;
         }
     }
 
@@ -58,7 +57,9 @@ public class AdministradorDAO {
             MySqlConnection conexao = new Conexao().Criar();
             conexao.Open();
 
-            string sql = "UPDATE Administrador SET nomeUsuario = @nomeUsuario, email = @email, senha = @senha, status = @stutus, foto = @foto WHERE id = @id;";
+            string sql = "UPDATE Administrador SET nomeUsuario = @nomeUsuario, "+
+                         "email = @email, senha = @senha, status = @status, " +
+                         "foto = @foto WHERE id = @id;";
 
             MySqlCommand comando = new MySqlCommand(sql, conexao);
             comando.Parameters.AddWithValue("@nomeUsuario", administrador.NomeUsuario);
@@ -66,6 +67,7 @@ public class AdministradorDAO {
             comando.Parameters.AddWithValue("@senha", administrador.Senha);
             comando.Parameters.AddWithValue("@status", administrador.Status);
             comando.Parameters.AddWithValue("@foto", administrador.Foto);
+            comando.Parameters.AddWithValue("@id", administrador.Id);
             comando.ExecuteNonQuery();
 
             Console.WriteLine("Administrador atualizado com sucesso");

@@ -5,7 +5,7 @@
 //Conexao conexao = new Conexao();
 //conexao.Criar();
 
-new TelaLogin();
+//new TelaLogin();
 
 Console.WriteLine("o que vc dejesa fazer?");
 Console.WriteLine("1. Inserir Administrador");
@@ -65,6 +65,7 @@ switch (opcao) {
             NomeUsuario = nomeUsuario,
             Email = email,
             Senha = senha,
+            Status = 1,
             Foto = foto
         };
         administradorDAO = new AdministradorDAO();
@@ -81,5 +82,5 @@ switch (opcao) {
         break;
     default:
     Console.WriteLine("Você não escolheu um opção valida!");
-    break;
+        break;
 }
