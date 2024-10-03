@@ -14,10 +14,10 @@ Console.WriteLine("3. Atualizar Administrador");
 Console.WriteLine("4. Deletar Administrador");
 int opcao = Convert.ToInt32(Console.ReadLine());
 
-string nomeUsuario;
-string email;
-string senha;
-string foto;
+string nomeUsuario = "";
+string email = "";
+string senha = "";
+string foto = "";
 int id;
 Administrador administrador;
 AdministradorDAO administradorDAO;
@@ -36,13 +36,14 @@ switch (opcao) {
             NomeUsuario = nomeUsuario,
             Email = email,
             Senha = senha,
+            Status = 1,
             Foto = foto
         };
         /*AdministradorDAO*/administradorDAO = new AdministradorDAO();
         administradorDAO.Adicionar(administrador);
         break;
     case 2:
-        administradorDAO = new AdministradorDAO();
+        /*AdministradorDAO*/administradorDAO = new AdministradorDAO();
         List<Administrador> administradores = administradorDAO.ListarTodos();
         Console.WriteLine("Lista de Administradores");
         foreach (Administrador administrador1 in administradores) {
@@ -68,11 +69,11 @@ switch (opcao) {
             Status = 1,
             Foto = foto
         };
-        administradorDAO = new AdministradorDAO();
+        /*AdministradorDAO*/administradorDAO = new AdministradorDAO();
         administradorDAO.Atualizar(administrador);
         break;
     case 4:
-    Console.WriteLine("Digite o Id do Administrador a ser");
+    Console.WriteLine("Digite o Id do Administrador a ser deletado:");
         id = Convert.ToInt32(Console.ReadLine());
         /*Administrador*/administrador = new Administrador() {
             Id = id,
