@@ -14,7 +14,7 @@ public class TelaLogin : ITela
         System.Console.WriteLine("Insira sua senha:");
         senha = Console.ReadLine();
 
-        AdministradorDAO administradorDAO = new AdministradorDAO();
+        AdministradorDAO_ADO administradorDAO = new AdministradorDAO_ADO();
         List<Administrador> administradores = administradorDAO.ListarTodos();
 
         foreach (Administrador administrador in administradores){

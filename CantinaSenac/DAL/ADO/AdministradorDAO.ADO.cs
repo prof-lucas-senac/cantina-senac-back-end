@@ -1,6 +1,6 @@
 using MySql.Data.MySqlClient;
 
-public class AdministradorDAO
+public class AdministradorDAO_ADO
 {
     public void Adicionar(Administrador administrador) {
         try

@@ -28,7 +28,7 @@ public class TelaCadastroAdministrador : ITela
             Status = 1
         };
 
-        AdministradorDAO administradorDAO = new AdministradorDAO();
+        AdministradorDAO_ADO administradorDAO = new AdministradorDAO_ADO();
         administradorDAO.Adicionar(administrador);
 
         new TelaLogin();

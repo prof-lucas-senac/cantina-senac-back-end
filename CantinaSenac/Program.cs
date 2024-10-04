@@ -14,7 +14,7 @@ string senha = "";
 string foto = "";
 int id;
 Administrador administrador;
-AdministradorDAO administradorDAO;
+AdministradorDAO_ADO administradorDAO;
 switch (opcao)
 {
     case 1:
@@ -33,15 +33,15 @@ switch (opcao)
             Status = 1,
             Foto = foto
         };
-        administradorDAO = new AdministradorDAO();
+        administradorDAO = new AdministradorDAO_ADO();
         administradorDAO.Adicionar(administrador);
         break;
     case 2:
-        administradorDAO = new AdministradorDAO();
+        administradorDAO = new AdministradorDAO_ADO();
         List<Administrador> administradores = administradorDAO.ListarTodos();
         System.Console.WriteLine("Lista de Administradores:");
-        foreach (Administrador administrador1 in administradores) {
-            System.Console.WriteLine(administrador1.NomeDoUsuario);
+        foreach (Administrador adm in administradores) {
+            System.Console.WriteLine(adm.NomeDoUsuario);
         }
         break;
     case 3:
@@ -63,7 +63,7 @@ switch (opcao)
             Status = 1,
             Foto = foto
         };
-        administradorDAO = new AdministradorDAO();
+        administradorDAO = new AdministradorDAO_ADO();
         administradorDAO.Atualizar(administrador);
         break;
     case 4:
@@ -72,7 +72,7 @@ switch (opcao)
         administrador = new Administrador(){
             Id = id
         };
-        administradorDAO = new AdministradorDAO();
+        administradorDAO = new AdministradorDAO_ADO();
         administradorDAO.Deletar(administrador);
         break;
     default:
