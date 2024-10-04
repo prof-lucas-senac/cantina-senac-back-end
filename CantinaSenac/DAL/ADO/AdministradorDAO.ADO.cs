@@ -1,7 +1,7 @@
 using MySql.Data.MySqlClient;
 using Mysqlx.Crud;
 
-public class AdministradorDAO {
+public class AdministradorDAO_ADO {
     public void Adicionar(Administrador administrador) {
         try {
             MySqlConnection conexao = new Conexao().Criar();

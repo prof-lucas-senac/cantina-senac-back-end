@@ -13,7 +13,7 @@ public class TelaLogin : ITela {
         Console.WriteLine("Insira sau senha");
         senha = Console.ReadLine();
 
-        AdministradorDAO administradorDAO = new AdministradorDAO();
+        AdministradorDAO_ADO administradorDAO = new AdministradorDAO_ADO();
         List<Administrador> administradores = administradorDAO.ListarTodos();
 
         foreach(Administrador administrador in administradores) {

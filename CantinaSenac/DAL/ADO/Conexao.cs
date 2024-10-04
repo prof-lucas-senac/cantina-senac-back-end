@@ -5,7 +5,6 @@ public class Conexao {
 
     public MySqlConnection Criar() {
         MySqlConnection conexao;
-
         try {
             conexao = new MySqlConnection(stringConexao);
             Console.WriteLine("Conexão criada com sucesso");

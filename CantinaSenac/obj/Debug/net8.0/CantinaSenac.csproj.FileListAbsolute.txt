@@ -90,3 +90,17 @@ c:\workplace\cantinaSenacArthur\cantina-senac-back-end\CantinaSenac\obj\Debug\ne
 c:\workplace\cantinaSenacArthur\cantina-senac-back-end\CantinaSenac\obj\Debug\net8.0\CantinaSenac.pdb
 c:\workplace\cantinaSenacArthur\cantina-senac-back-end\CantinaSenac\obj\Debug\net8.0\CantinaSenac.genruntimeconfig.cache
 c:\workplace\cantinaSenacArthur\cantina-senac-back-end\CantinaSenac\obj\Debug\net8.0\ref\CantinaSenac.dll
+c:\workplace\cantinaSenacArthur\cantina-senac-back-end\CantinaSenac\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+c:\workplace\cantinaSenacArthur\cantina-senac-back-end\CantinaSenac\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+c:\workplace\cantinaSenacArthur\cantina-senac-back-end\CantinaSenac\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+c:\workplace\cantinaSenacArthur\cantina-senac-back-end\CantinaSenac\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+c:\workplace\cantinaSenacArthur\cantina-senac-back-end\CantinaSenac\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+c:\workplace\cantinaSenacArthur\cantina-senac-back-end\CantinaSenac\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+c:\workplace\cantinaSenacArthur\cantina-senac-back-end\CantinaSenac\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+c:\workplace\cantinaSenacArthur\cantina-senac-back-end\CantinaSenac\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+c:\workplace\cantinaSenacArthur\cantina-senac-back-end\CantinaSenac\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+c:\workplace\cantinaSenacArthur\cantina-senac-back-end\CantinaSenac\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+c:\workplace\cantinaSenacArthur\cantina-senac-back-end\CantinaSenac\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+c:\workplace\cantinaSenacArthur\cantina-senac-back-end\CantinaSenac\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+c:\workplace\cantinaSenacArthur\cantina-senac-back-end\CantinaSenac\bin\Debug\net8.0\MySqlConnector.dll
+c:\workplace\cantinaSenacArthur\cantina-senac-back-end\CantinaSenac\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
