@@ -36,3 +36,17 @@ C:\workplace\CantinaSenac\CantinaSenac\bin\Debug\net8.0\runtimes\win\lib\net8.0\
 C:\workplace\CantinaSenac\CantinaSenac\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Windows.Extensions.dll
 C:\workplace\CantinaSenac\CantinaSenac\obj\Debug\net8.0\CantinaSenac.csproj.AssemblyReference.cache
 C:\workplace\CantinaSenac\CantinaSenac\obj\Debug\net8.0\CantinaS.B1772BF7.Up2Date
+C:\workplace\CantinaSenac\CantinaSenac\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\workplace\CantinaSenac\CantinaSenac\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\workplace\CantinaSenac\CantinaSenac\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\workplace\CantinaSenac\CantinaSenac\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\workplace\CantinaSenac\CantinaSenac\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\workplace\CantinaSenac\CantinaSenac\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\workplace\CantinaSenac\CantinaSenac\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\workplace\CantinaSenac\CantinaSenac\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\workplace\CantinaSenac\CantinaSenac\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\workplace\CantinaSenac\CantinaSenac\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\workplace\CantinaSenac\CantinaSenac\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\workplace\CantinaSenac\CantinaSenac\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\workplace\CantinaSenac\CantinaSenac\bin\Debug\net8.0\MySqlConnector.dll
+C:\workplace\CantinaSenac\CantinaSenac\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll

@@ -1,6 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 // new TelaLogin();
+
 System.Console.WriteLine("O que você deseja fazer?");
 System.Console.WriteLine("1. Inserir Administrador;");
 System.Console.WriteLine("2. Listar Administradores;");
@@ -14,7 +15,7 @@ string senha = "";
 string foto = "";
 int id;
 Administrador administrador;
-AdministradorDAO_ADO administradorDAO;
+AdministradorDAOEF administradorDAO;
 switch (opcao)
 {
     case 1:
@@ -33,11 +34,11 @@ switch (opcao)
             Status = 1,
             Foto = foto
         };
-        administradorDAO = new AdministradorDAO_ADO();
+        administradorDAO = new AdministradorDAOEF();
         administradorDAO.Adicionar(administrador);
         break;
     case 2:
-        administradorDAO = new AdministradorDAO_ADO();
+        administradorDAO = new AdministradorDAOEF();
         List<Administrador> administradores = administradorDAO.ListarTodos();
         System.Console.WriteLine("Lista de Administradores:");
         foreach (Administrador adm in administradores) {
@@ -63,7 +64,7 @@ switch (opcao)
             Status = 1,
             Foto = foto
         };
-        administradorDAO = new AdministradorDAO_ADO();
+        administradorDAO = new AdministradorDAOEF();
         administradorDAO.Atualizar(administrador);
         break;
     case 4:
@@ -72,7 +73,7 @@ switch (opcao)
         administrador = new Administrador(){
             Id = id
         };
-        administradorDAO = new AdministradorDAO_ADO();
+        administradorDAO = new AdministradorDAOEF();
         administradorDAO.Deletar(administrador);
         break;
     default:
