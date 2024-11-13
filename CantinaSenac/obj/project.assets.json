@@ -2311,26 +2311,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Prog_Sis\\.nuget\\packages\\": {}
+    "/home/youdeserve/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\workplace\\CantinaSenac\\CantinaSenac\\CantinaSenac.csproj",
+      "projectUniqueName": "/home/youdeserve/workspace/cantina-senac-be-backup (copy)/cantina-senac-back-end/CantinaSenac/CantinaSenac.csproj",
       "projectName": "CantinaSenac",
-      "projectPath": "C:\\workplace\\CantinaSenac\\CantinaSenac\\CantinaSenac.csproj",
-      "packagesPath": "C:\\Users\\Prog_Sis\\.nuget\\packages\\",
-      "outputPath": "C:\\workplace\\CantinaSenac\\CantinaSenac\\obj\\",
+      "projectPath": "/home/youdeserve/workspace/cantina-senac-be-backup (copy)/cantina-senac-back-end/CantinaSenac/CantinaSenac.csproj",
+      "packagesPath": "/home/youdeserve/.nuget/packages/",
+      "outputPath": "/home/youdeserve/workspace/cantina-senac-be-backup (copy)/cantina-senac-back-end/CantinaSenac/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Prog_Sis\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/home/youdeserve/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -2343,11 +2341,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -2379,7 +2372,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.110/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

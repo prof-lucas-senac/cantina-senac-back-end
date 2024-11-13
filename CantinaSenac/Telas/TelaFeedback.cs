@@ -1,4 +1,0 @@
-class TelaFeedback
-{
-    // Código
-}

@@ -4,7 +4,7 @@ class CantinaSenacContext : DbContext
 {
     public DbSet<Administrador> Administrador { get; set; }
     public DbSet<Usuario> Usuario { get; set; }
-    string stringConexao = "Server=localhost;Port=3306;Database=CantinaSenacOrm;Uid=root;Pwd=root;";
+    string stringConexao = "Server=localhost;Port=3306;Database=CantinaSenacOrm;Uid=root;Pwd=Extec_23;";
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {

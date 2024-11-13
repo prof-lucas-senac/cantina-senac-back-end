@@ -1,52 +1,156 @@
-C:\workplace\CantinaSenac\CantinaSenac\obj\Debug\net8.0\CantinaSenac.GeneratedMSBuildEditorConfig.editorconfig
-C:\workplace\CantinaSenac\CantinaSenac\obj\Debug\net8.0\CantinaSenac.AssemblyInfoInputs.cache
-C:\workplace\CantinaSenac\CantinaSenac\obj\Debug\net8.0\CantinaSenac.AssemblyInfo.cs
-C:\workplace\CantinaSenac\CantinaSenac\obj\Debug\net8.0\CantinaSenac.csproj.CoreCompileInputs.cache
-C:\workplace\CantinaSenac\CantinaSenac\obj\Debug\net8.0\CantinaSenac.sourcelink.json
-C:\workplace\CantinaSenac\CantinaSenac\bin\Debug\net8.0\CantinaSenac.exe
-C:\workplace\CantinaSenac\CantinaSenac\bin\Debug\net8.0\CantinaSenac.deps.json
-C:\workplace\CantinaSenac\CantinaSenac\bin\Debug\net8.0\CantinaSenac.runtimeconfig.json
-C:\workplace\CantinaSenac\CantinaSenac\bin\Debug\net8.0\CantinaSenac.dll
-C:\workplace\CantinaSenac\CantinaSenac\bin\Debug\net8.0\CantinaSenac.pdb
-C:\workplace\CantinaSenac\CantinaSenac\obj\Debug\net8.0\CantinaSenac.dll
-C:\workplace\CantinaSenac\CantinaSenac\obj\Debug\net8.0\refint\CantinaSenac.dll
-C:\workplace\CantinaSenac\CantinaSenac\obj\Debug\net8.0\CantinaSenac.pdb
-C:\workplace\CantinaSenac\CantinaSenac\obj\Debug\net8.0\CantinaSenac.genruntimeconfig.cache
-C:\workplace\CantinaSenac\CantinaSenac\obj\Debug\net8.0\ref\CantinaSenac.dll
-C:\workplace\CantinaSenac\CantinaSenac\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
-C:\workplace\CantinaSenac\CantinaSenac\bin\Debug\net8.0\Google.Protobuf.dll
-C:\workplace\CantinaSenac\CantinaSenac\bin\Debug\net8.0\K4os.Compression.LZ4.dll
-C:\workplace\CantinaSenac\CantinaSenac\bin\Debug\net8.0\K4os.Compression.LZ4.Streams.dll
-C:\workplace\CantinaSenac\CantinaSenac\bin\Debug\net8.0\K4os.Hash.xxHash.dll
-C:\workplace\CantinaSenac\CantinaSenac\bin\Debug\net8.0\MySql.Data.dll
-C:\workplace\CantinaSenac\CantinaSenac\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
-C:\workplace\CantinaSenac\CantinaSenac\bin\Debug\net8.0\System.Diagnostics.EventLog.dll
-C:\workplace\CantinaSenac\CantinaSenac\bin\Debug\net8.0\System.IO.Pipelines.dll
-C:\workplace\CantinaSenac\CantinaSenac\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
-C:\workplace\CantinaSenac\CantinaSenac\bin\Debug\net8.0\System.Security.Permissions.dll
-C:\workplace\CantinaSenac\CantinaSenac\bin\Debug\net8.0\System.Windows.Extensions.dll
-C:\workplace\CantinaSenac\CantinaSenac\bin\Debug\net8.0\ZstdSharp.dll
-C:\workplace\CantinaSenac\CantinaSenac\bin\Debug\net8.0\runtimes\win-x64\native\comerr64.dll
-C:\workplace\CantinaSenac\CantinaSenac\bin\Debug\net8.0\runtimes\win-x64\native\gssapi64.dll
-C:\workplace\CantinaSenac\CantinaSenac\bin\Debug\net8.0\runtimes\win-x64\native\k5sprt64.dll
-C:\workplace\CantinaSenac\CantinaSenac\bin\Debug\net8.0\runtimes\win-x64\native\krb5_64.dll
-C:\workplace\CantinaSenac\CantinaSenac\bin\Debug\net8.0\runtimes\win-x64\native\krbcc64.dll
-C:\workplace\CantinaSenac\CantinaSenac\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.Messages.dll
-C:\workplace\CantinaSenac\CantinaSenac\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
-C:\workplace\CantinaSenac\CantinaSenac\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Windows.Extensions.dll
-C:\workplace\CantinaSenac\CantinaSenac\obj\Debug\net8.0\CantinaSenac.csproj.AssemblyReference.cache
-C:\workplace\CantinaSenac\CantinaSenac\obj\Debug\net8.0\CantinaS.B1772BF7.Up2Date
-C:\workplace\CantinaSenac\CantinaSenac\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
-C:\workplace\CantinaSenac\CantinaSenac\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\workplace\CantinaSenac\CantinaSenac\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\workplace\CantinaSenac\CantinaSenac\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
-C:\workplace\CantinaSenac\CantinaSenac\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
-C:\workplace\CantinaSenac\CantinaSenac\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
-C:\workplace\CantinaSenac\CantinaSenac\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
-C:\workplace\CantinaSenac\CantinaSenac\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\workplace\CantinaSenac\CantinaSenac\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
-C:\workplace\CantinaSenac\CantinaSenac\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
-C:\workplace\CantinaSenac\CantinaSenac\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
-C:\workplace\CantinaSenac\CantinaSenac\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
-C:\workplace\CantinaSenac\CantinaSenac\bin\Debug\net8.0\MySqlConnector.dll
-C:\workplace\CantinaSenac\CantinaSenac\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:/workplace/CantinaSenac/CantinaSenac/obj/Debug/net8.0/CantinaSenac.GeneratedMSBuildEditorConfig.editorconfig
+C:/workplace/CantinaSenac/CantinaSenac/obj/Debug/net8.0/CantinaSenac.AssemblyInfoInputs.cache
+C:/workplace/CantinaSenac/CantinaSenac/obj/Debug/net8.0/CantinaSenac.AssemblyInfo.cs
+C:/workplace/CantinaSenac/CantinaSenac/obj/Debug/net8.0/CantinaSenac.csproj.CoreCompileInputs.cache
+C:/workplace/CantinaSenac/CantinaSenac/obj/Debug/net8.0/CantinaSenac.sourcelink.json
+C:/workplace/CantinaSenac/CantinaSenac/bin/Debug/net8.0/CantinaSenac.exe
+C:/workplace/CantinaSenac/CantinaSenac/bin/Debug/net8.0/CantinaSenac.deps.json
+C:/workplace/CantinaSenac/CantinaSenac/bin/Debug/net8.0/CantinaSenac.runtimeconfig.json
+C:/workplace/CantinaSenac/CantinaSenac/bin/Debug/net8.0/CantinaSenac.dll
+C:/workplace/CantinaSenac/CantinaSenac/bin/Debug/net8.0/CantinaSenac.pdb
+C:/workplace/CantinaSenac/CantinaSenac/obj/Debug/net8.0/CantinaSenac.dll
+C:/workplace/CantinaSenac/CantinaSenac/obj/Debug/net8.0/refint/CantinaSenac.dll
+C:/workplace/CantinaSenac/CantinaSenac/obj/Debug/net8.0/CantinaSenac.pdb
+C:/workplace/CantinaSenac/CantinaSenac/obj/Debug/net8.0/CantinaSenac.genruntimeconfig.cache
+C:/workplace/CantinaSenac/CantinaSenac/obj/Debug/net8.0/ref/CantinaSenac.dll
+C:/workplace/CantinaSenac/CantinaSenac/bin/Debug/net8.0/BouncyCastle.Cryptography.dll
+C:/workplace/CantinaSenac/CantinaSenac/bin/Debug/net8.0/Google.Protobuf.dll
+C:/workplace/CantinaSenac/CantinaSenac/bin/Debug/net8.0/K4os.Compression.LZ4.dll
+C:/workplace/CantinaSenac/CantinaSenac/bin/Debug/net8.0/K4os.Compression.LZ4.Streams.dll
+C:/workplace/CantinaSenac/CantinaSenac/bin/Debug/net8.0/K4os.Hash.xxHash.dll
+C:/workplace/CantinaSenac/CantinaSenac/bin/Debug/net8.0/MySql.Data.dll
+C:/workplace/CantinaSenac/CantinaSenac/bin/Debug/net8.0/System.Configuration.ConfigurationManager.dll
+C:/workplace/CantinaSenac/CantinaSenac/bin/Debug/net8.0/System.Diagnostics.EventLog.dll
+C:/workplace/CantinaSenac/CantinaSenac/bin/Debug/net8.0/System.IO.Pipelines.dll
+C:/workplace/CantinaSenac/CantinaSenac/bin/Debug/net8.0/System.Security.Cryptography.ProtectedData.dll
+C:/workplace/CantinaSenac/CantinaSenac/bin/Debug/net8.0/System.Security.Permissions.dll
+C:/workplace/CantinaSenac/CantinaSenac/bin/Debug/net8.0/System.Windows.Extensions.dll
+C:/workplace/CantinaSenac/CantinaSenac/bin/Debug/net8.0/ZstdSharp.dll
+C:/workplace/CantinaSenac/CantinaSenac/bin/Debug/net8.0/runtimes/win-x64/native/comerr64.dll
+C:/workplace/CantinaSenac/CantinaSenac/bin/Debug/net8.0/runtimes/win-x64/native/gssapi64.dll
+C:/workplace/CantinaSenac/CantinaSenac/bin/Debug/net8.0/runtimes/win-x64/native/k5sprt64.dll
+C:/workplace/CantinaSenac/CantinaSenac/bin/Debug/net8.0/runtimes/win-x64/native/krb5_64.dll
+C:/workplace/CantinaSenac/CantinaSenac/bin/Debug/net8.0/runtimes/win-x64/native/krbcc64.dll
+C:/workplace/CantinaSenac/CantinaSenac/bin/Debug/net8.0/runtimes/win/lib/net8.0/System.Diagnostics.EventLog.Messages.dll
+C:/workplace/CantinaSenac/CantinaSenac/bin/Debug/net8.0/runtimes/win/lib/net8.0/System.Diagnostics.EventLog.dll
+C:/workplace/CantinaSenac/CantinaSenac/bin/Debug/net8.0/runtimes/win/lib/net8.0/System.Windows.Extensions.dll
+C:/workplace/CantinaSenac/CantinaSenac/obj/Debug/net8.0/CantinaSenac.csproj.AssemblyReference.cache
+C:/workplace/CantinaSenac/CantinaSenac/obj/Debug/net8.0/CantinaS.B1772BF7.Up2Date
+C:/workplace/CantinaSenac/CantinaSenac/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.dll
+C:/workplace/CantinaSenac/CantinaSenac/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+C:/workplace/CantinaSenac/CantinaSenac/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Relational.dll
+C:/workplace/CantinaSenac/CantinaSenac/bin/Debug/net8.0/Microsoft.Extensions.Caching.Abstractions.dll
+C:/workplace/CantinaSenac/CantinaSenac/bin/Debug/net8.0/Microsoft.Extensions.Caching.Memory.dll
+C:/workplace/CantinaSenac/CantinaSenac/bin/Debug/net8.0/Microsoft.Extensions.Configuration.Abstractions.dll
+C:/workplace/CantinaSenac/CantinaSenac/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.dll
+C:/workplace/CantinaSenac/CantinaSenac/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:/workplace/CantinaSenac/CantinaSenac/bin/Debug/net8.0/Microsoft.Extensions.Logging.dll
+C:/workplace/CantinaSenac/CantinaSenac/bin/Debug/net8.0/Microsoft.Extensions.Logging.Abstractions.dll
+C:/workplace/CantinaSenac/CantinaSenac/bin/Debug/net8.0/Microsoft.Extensions.Options.dll
+C:/workplace/CantinaSenac/CantinaSenac/bin/Debug/net8.0/Microsoft.Extensions.Primitives.dll
+C:/workplace/CantinaSenac/CantinaSenac/bin/Debug/net8.0/MySqlConnector.dll
+C:/workplace/CantinaSenac/CantinaSenac/bin/Debug/net8.0/Pomelo.EntityFrameworkCore.MySql.dll
+/home/youdeserve/workspace/cantina-senac-be-backup/cantina-senac-back-end/CantinaSenac/bin/Debug/net8.0/CantinaSenac
+/home/youdeserve/workspace/cantina-senac-be-backup/cantina-senac-back-end/CantinaSenac/bin/Debug/net8.0/CantinaSenac.deps.json
+/home/youdeserve/workspace/cantina-senac-be-backup/cantina-senac-back-end/CantinaSenac/bin/Debug/net8.0/CantinaSenac.runtimeconfig.json
+/home/youdeserve/workspace/cantina-senac-be-backup/cantina-senac-back-end/CantinaSenac/bin/Debug/net8.0/CantinaSenac.dll
+/home/youdeserve/workspace/cantina-senac-be-backup/cantina-senac-back-end/CantinaSenac/bin/Debug/net8.0/CantinaSenac.pdb
+/home/youdeserve/workspace/cantina-senac-be-backup/cantina-senac-back-end/CantinaSenac/bin/Debug/net8.0/BouncyCastle.Cryptography.dll
+/home/youdeserve/workspace/cantina-senac-be-backup/cantina-senac-back-end/CantinaSenac/bin/Debug/net8.0/Google.Protobuf.dll
+/home/youdeserve/workspace/cantina-senac-be-backup/cantina-senac-back-end/CantinaSenac/bin/Debug/net8.0/K4os.Compression.LZ4.dll
+/home/youdeserve/workspace/cantina-senac-be-backup/cantina-senac-back-end/CantinaSenac/bin/Debug/net8.0/K4os.Compression.LZ4.Streams.dll
+/home/youdeserve/workspace/cantina-senac-be-backup/cantina-senac-back-end/CantinaSenac/bin/Debug/net8.0/K4os.Hash.xxHash.dll
+/home/youdeserve/workspace/cantina-senac-be-backup/cantina-senac-back-end/CantinaSenac/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.dll
+/home/youdeserve/workspace/cantina-senac-be-backup/cantina-senac-back-end/CantinaSenac/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/home/youdeserve/workspace/cantina-senac-be-backup/cantina-senac-back-end/CantinaSenac/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Relational.dll
+/home/youdeserve/workspace/cantina-senac-be-backup/cantina-senac-back-end/CantinaSenac/bin/Debug/net8.0/Microsoft.Extensions.Caching.Abstractions.dll
+/home/youdeserve/workspace/cantina-senac-be-backup/cantina-senac-back-end/CantinaSenac/bin/Debug/net8.0/Microsoft.Extensions.Caching.Memory.dll
+/home/youdeserve/workspace/cantina-senac-be-backup/cantina-senac-back-end/CantinaSenac/bin/Debug/net8.0/Microsoft.Extensions.Configuration.Abstractions.dll
+/home/youdeserve/workspace/cantina-senac-be-backup/cantina-senac-back-end/CantinaSenac/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.dll
+/home/youdeserve/workspace/cantina-senac-be-backup/cantina-senac-back-end/CantinaSenac/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/home/youdeserve/workspace/cantina-senac-be-backup/cantina-senac-back-end/CantinaSenac/bin/Debug/net8.0/Microsoft.Extensions.Logging.dll
+/home/youdeserve/workspace/cantina-senac-be-backup/cantina-senac-back-end/CantinaSenac/bin/Debug/net8.0/Microsoft.Extensions.Logging.Abstractions.dll
+/home/youdeserve/workspace/cantina-senac-be-backup/cantina-senac-back-end/CantinaSenac/bin/Debug/net8.0/Microsoft.Extensions.Options.dll
+/home/youdeserve/workspace/cantina-senac-be-backup/cantina-senac-back-end/CantinaSenac/bin/Debug/net8.0/Microsoft.Extensions.Primitives.dll
+/home/youdeserve/workspace/cantina-senac-be-backup/cantina-senac-back-end/CantinaSenac/bin/Debug/net8.0/MySql.Data.dll
+/home/youdeserve/workspace/cantina-senac-be-backup/cantina-senac-back-end/CantinaSenac/bin/Debug/net8.0/MySqlConnector.dll
+/home/youdeserve/workspace/cantina-senac-be-backup/cantina-senac-back-end/CantinaSenac/bin/Debug/net8.0/Pomelo.EntityFrameworkCore.MySql.dll
+/home/youdeserve/workspace/cantina-senac-be-backup/cantina-senac-back-end/CantinaSenac/bin/Debug/net8.0/System.Configuration.ConfigurationManager.dll
+/home/youdeserve/workspace/cantina-senac-be-backup/cantina-senac-back-end/CantinaSenac/bin/Debug/net8.0/System.Diagnostics.EventLog.dll
+/home/youdeserve/workspace/cantina-senac-be-backup/cantina-senac-back-end/CantinaSenac/bin/Debug/net8.0/System.IO.Pipelines.dll
+/home/youdeserve/workspace/cantina-senac-be-backup/cantina-senac-back-end/CantinaSenac/bin/Debug/net8.0/System.Security.Cryptography.ProtectedData.dll
+/home/youdeserve/workspace/cantina-senac-be-backup/cantina-senac-back-end/CantinaSenac/bin/Debug/net8.0/System.Security.Permissions.dll
+/home/youdeserve/workspace/cantina-senac-be-backup/cantina-senac-back-end/CantinaSenac/bin/Debug/net8.0/System.Windows.Extensions.dll
+/home/youdeserve/workspace/cantina-senac-be-backup/cantina-senac-back-end/CantinaSenac/bin/Debug/net8.0/ZstdSharp.dll
+/home/youdeserve/workspace/cantina-senac-be-backup/cantina-senac-back-end/CantinaSenac/bin/Debug/net8.0/runtimes/win-x64/native/comerr64.dll
+/home/youdeserve/workspace/cantina-senac-be-backup/cantina-senac-back-end/CantinaSenac/bin/Debug/net8.0/runtimes/win-x64/native/gssapi64.dll
+/home/youdeserve/workspace/cantina-senac-be-backup/cantina-senac-back-end/CantinaSenac/bin/Debug/net8.0/runtimes/win-x64/native/k5sprt64.dll
+/home/youdeserve/workspace/cantina-senac-be-backup/cantina-senac-back-end/CantinaSenac/bin/Debug/net8.0/runtimes/win-x64/native/krb5_64.dll
+/home/youdeserve/workspace/cantina-senac-be-backup/cantina-senac-back-end/CantinaSenac/bin/Debug/net8.0/runtimes/win-x64/native/krbcc64.dll
+/home/youdeserve/workspace/cantina-senac-be-backup/cantina-senac-back-end/CantinaSenac/bin/Debug/net8.0/runtimes/win/lib/net8.0/System.Diagnostics.EventLog.Messages.dll
+/home/youdeserve/workspace/cantina-senac-be-backup/cantina-senac-back-end/CantinaSenac/bin/Debug/net8.0/runtimes/win/lib/net8.0/System.Diagnostics.EventLog.dll
+/home/youdeserve/workspace/cantina-senac-be-backup/cantina-senac-back-end/CantinaSenac/bin/Debug/net8.0/runtimes/win/lib/net8.0/System.Windows.Extensions.dll
+/home/youdeserve/workspace/cantina-senac-be-backup/cantina-senac-back-end/CantinaSenac/obj/Debug/net8.0/CantinaSenac.csproj.AssemblyReference.cache
+/home/youdeserve/workspace/cantina-senac-be-backup/cantina-senac-back-end/CantinaSenac/obj/Debug/net8.0/CantinaSenac.GeneratedMSBuildEditorConfig.editorconfig
+/home/youdeserve/workspace/cantina-senac-be-backup/cantina-senac-back-end/CantinaSenac/obj/Debug/net8.0/CantinaSenac.AssemblyInfoInputs.cache
+/home/youdeserve/workspace/cantina-senac-be-backup/cantina-senac-back-end/CantinaSenac/obj/Debug/net8.0/CantinaSenac.AssemblyInfo.cs
+/home/youdeserve/workspace/cantina-senac-be-backup/cantina-senac-back-end/CantinaSenac/obj/Debug/net8.0/CantinaSenac.csproj.CoreCompileInputs.cache
+/home/youdeserve/workspace/cantina-senac-be-backup/cantina-senac-back-end/CantinaSenac/obj/Debug/net8.0/CantinaSenac.sourcelink.json
+/home/youdeserve/workspace/cantina-senac-be-backup/cantina-senac-back-end/CantinaSenac/obj/Debug/net8.0/CantinaSenac.csproj.CopyComplete
+/home/youdeserve/workspace/cantina-senac-be-backup/cantina-senac-back-end/CantinaSenac/obj/Debug/net8.0/CantinaSenac.dll
+/home/youdeserve/workspace/cantina-senac-be-backup/cantina-senac-back-end/CantinaSenac/obj/Debug/net8.0/refint/CantinaSenac.dll
+/home/youdeserve/workspace/cantina-senac-be-backup/cantina-senac-back-end/CantinaSenac/obj/Debug/net8.0/CantinaSenac.pdb
+/home/youdeserve/workspace/cantina-senac-be-backup/cantina-senac-back-end/CantinaSenac/obj/Debug/net8.0/CantinaSenac.genruntimeconfig.cache
+/home/youdeserve/workspace/cantina-senac-be-backup/cantina-senac-back-end/CantinaSenac/obj/Debug/net8.0/ref/CantinaSenac.dll
+/home/youdeserve/workspace/cantina-senac-be-backup (copy)/cantina-senac-back-end/CantinaSenac/bin/Debug/net8.0/CantinaSenac
+/home/youdeserve/workspace/cantina-senac-be-backup (copy)/cantina-senac-back-end/CantinaSenac/bin/Debug/net8.0/CantinaSenac.deps.json
+/home/youdeserve/workspace/cantina-senac-be-backup (copy)/cantina-senac-back-end/CantinaSenac/bin/Debug/net8.0/CantinaSenac.runtimeconfig.json
+/home/youdeserve/workspace/cantina-senac-be-backup (copy)/cantina-senac-back-end/CantinaSenac/bin/Debug/net8.0/CantinaSenac.dll
+/home/youdeserve/workspace/cantina-senac-be-backup (copy)/cantina-senac-back-end/CantinaSenac/bin/Debug/net8.0/CantinaSenac.pdb
+/home/youdeserve/workspace/cantina-senac-be-backup (copy)/cantina-senac-back-end/CantinaSenac/bin/Debug/net8.0/BouncyCastle.Cryptography.dll
+/home/youdeserve/workspace/cantina-senac-be-backup (copy)/cantina-senac-back-end/CantinaSenac/bin/Debug/net8.0/Google.Protobuf.dll
+/home/youdeserve/workspace/cantina-senac-be-backup (copy)/cantina-senac-back-end/CantinaSenac/bin/Debug/net8.0/K4os.Compression.LZ4.dll
+/home/youdeserve/workspace/cantina-senac-be-backup (copy)/cantina-senac-back-end/CantinaSenac/bin/Debug/net8.0/K4os.Compression.LZ4.Streams.dll
+/home/youdeserve/workspace/cantina-senac-be-backup (copy)/cantina-senac-back-end/CantinaSenac/bin/Debug/net8.0/K4os.Hash.xxHash.dll
+/home/youdeserve/workspace/cantina-senac-be-backup (copy)/cantina-senac-back-end/CantinaSenac/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.dll
+/home/youdeserve/workspace/cantina-senac-be-backup (copy)/cantina-senac-back-end/CantinaSenac/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/home/youdeserve/workspace/cantina-senac-be-backup (copy)/cantina-senac-back-end/CantinaSenac/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Relational.dll
+/home/youdeserve/workspace/cantina-senac-be-backup (copy)/cantina-senac-back-end/CantinaSenac/bin/Debug/net8.0/Microsoft.Extensions.Caching.Abstractions.dll
+/home/youdeserve/workspace/cantina-senac-be-backup (copy)/cantina-senac-back-end/CantinaSenac/bin/Debug/net8.0/Microsoft.Extensions.Caching.Memory.dll
+/home/youdeserve/workspace/cantina-senac-be-backup (copy)/cantina-senac-back-end/CantinaSenac/bin/Debug/net8.0/Microsoft.Extensions.Configuration.Abstractions.dll
+/home/youdeserve/workspace/cantina-senac-be-backup (copy)/cantina-senac-back-end/CantinaSenac/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.dll
+/home/youdeserve/workspace/cantina-senac-be-backup (copy)/cantina-senac-back-end/CantinaSenac/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/home/youdeserve/workspace/cantina-senac-be-backup (copy)/cantina-senac-back-end/CantinaSenac/bin/Debug/net8.0/Microsoft.Extensions.Logging.dll
+/home/youdeserve/workspace/cantina-senac-be-backup (copy)/cantina-senac-back-end/CantinaSenac/bin/Debug/net8.0/Microsoft.Extensions.Logging.Abstractions.dll
+/home/youdeserve/workspace/cantina-senac-be-backup (copy)/cantina-senac-back-end/CantinaSenac/bin/Debug/net8.0/Microsoft.Extensions.Options.dll
+/home/youdeserve/workspace/cantina-senac-be-backup (copy)/cantina-senac-back-end/CantinaSenac/bin/Debug/net8.0/Microsoft.Extensions.Primitives.dll
+/home/youdeserve/workspace/cantina-senac-be-backup (copy)/cantina-senac-back-end/CantinaSenac/bin/Debug/net8.0/MySql.Data.dll
+/home/youdeserve/workspace/cantina-senac-be-backup (copy)/cantina-senac-back-end/CantinaSenac/bin/Debug/net8.0/MySqlConnector.dll
+/home/youdeserve/workspace/cantina-senac-be-backup (copy)/cantina-senac-back-end/CantinaSenac/bin/Debug/net8.0/Pomelo.EntityFrameworkCore.MySql.dll
+/home/youdeserve/workspace/cantina-senac-be-backup (copy)/cantina-senac-back-end/CantinaSenac/bin/Debug/net8.0/System.Configuration.ConfigurationManager.dll
+/home/youdeserve/workspace/cantina-senac-be-backup (copy)/cantina-senac-back-end/CantinaSenac/bin/Debug/net8.0/System.Diagnostics.EventLog.dll
+/home/youdeserve/workspace/cantina-senac-be-backup (copy)/cantina-senac-back-end/CantinaSenac/bin/Debug/net8.0/System.IO.Pipelines.dll
+/home/youdeserve/workspace/cantina-senac-be-backup (copy)/cantina-senac-back-end/CantinaSenac/bin/Debug/net8.0/System.Security.Cryptography.ProtectedData.dll
+/home/youdeserve/workspace/cantina-senac-be-backup (copy)/cantina-senac-back-end/CantinaSenac/bin/Debug/net8.0/System.Security.Permissions.dll
+/home/youdeserve/workspace/cantina-senac-be-backup (copy)/cantina-senac-back-end/CantinaSenac/bin/Debug/net8.0/System.Windows.Extensions.dll
+/home/youdeserve/workspace/cantina-senac-be-backup (copy)/cantina-senac-back-end/CantinaSenac/bin/Debug/net8.0/ZstdSharp.dll
+/home/youdeserve/workspace/cantina-senac-be-backup (copy)/cantina-senac-back-end/CantinaSenac/bin/Debug/net8.0/runtimes/win-x64/native/comerr64.dll
+/home/youdeserve/workspace/cantina-senac-be-backup (copy)/cantina-senac-back-end/CantinaSenac/bin/Debug/net8.0/runtimes/win-x64/native/gssapi64.dll
+/home/youdeserve/workspace/cantina-senac-be-backup (copy)/cantina-senac-back-end/CantinaSenac/bin/Debug/net8.0/runtimes/win-x64/native/k5sprt64.dll
+/home/youdeserve/workspace/cantina-senac-be-backup (copy)/cantina-senac-back-end/CantinaSenac/bin/Debug/net8.0/runtimes/win-x64/native/krb5_64.dll
+/home/youdeserve/workspace/cantina-senac-be-backup (copy)/cantina-senac-back-end/CantinaSenac/bin/Debug/net8.0/runtimes/win-x64/native/krbcc64.dll
+/home/youdeserve/workspace/cantina-senac-be-backup (copy)/cantina-senac-back-end/CantinaSenac/bin/Debug/net8.0/runtimes/win/lib/net8.0/System.Diagnostics.EventLog.Messages.dll
+/home/youdeserve/workspace/cantina-senac-be-backup (copy)/cantina-senac-back-end/CantinaSenac/bin/Debug/net8.0/runtimes/win/lib/net8.0/System.Diagnostics.EventLog.dll
+/home/youdeserve/workspace/cantina-senac-be-backup (copy)/cantina-senac-back-end/CantinaSenac/bin/Debug/net8.0/runtimes/win/lib/net8.0/System.Windows.Extensions.dll
+/home/youdeserve/workspace/cantina-senac-be-backup (copy)/cantina-senac-back-end/CantinaSenac/obj/Debug/net8.0/CantinaSenac.csproj.AssemblyReference.cache
+/home/youdeserve/workspace/cantina-senac-be-backup (copy)/cantina-senac-back-end/CantinaSenac/obj/Debug/net8.0/CantinaSenac.GeneratedMSBuildEditorConfig.editorconfig
+/home/youdeserve/workspace/cantina-senac-be-backup (copy)/cantina-senac-back-end/CantinaSenac/obj/Debug/net8.0/CantinaSenac.AssemblyInfoInputs.cache
+/home/youdeserve/workspace/cantina-senac-be-backup (copy)/cantina-senac-back-end/CantinaSenac/obj/Debug/net8.0/CantinaSenac.AssemblyInfo.cs
+/home/youdeserve/workspace/cantina-senac-be-backup (copy)/cantina-senac-back-end/CantinaSenac/obj/Debug/net8.0/CantinaSenac.csproj.CoreCompileInputs.cache
+/home/youdeserve/workspace/cantina-senac-be-backup (copy)/cantina-senac-back-end/CantinaSenac/obj/Debug/net8.0/CantinaSenac.sourcelink.json
+/home/youdeserve/workspace/cantina-senac-be-backup (copy)/cantina-senac-back-end/CantinaSenac/obj/Debug/net8.0/CantinaSenac.csproj.CopyComplete
+/home/youdeserve/workspace/cantina-senac-be-backup (copy)/cantina-senac-back-end/CantinaSenac/obj/Debug/net8.0/CantinaSenac.dll
+/home/youdeserve/workspace/cantina-senac-be-backup (copy)/cantina-senac-back-end/CantinaSenac/obj/Debug/net8.0/refint/CantinaSenac.dll
+/home/youdeserve/workspace/cantina-senac-be-backup (copy)/cantina-senac-back-end/CantinaSenac/obj/Debug/net8.0/CantinaSenac.pdb
+/home/youdeserve/workspace/cantina-senac-be-backup (copy)/cantina-senac-back-end/CantinaSenac/obj/Debug/net8.0/CantinaSenac.genruntimeconfig.cache
+/home/youdeserve/workspace/cantina-senac-be-backup (copy)/cantina-senac-back-end/CantinaSenac/obj/Debug/net8.0/ref/CantinaSenac.dll
