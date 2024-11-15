@@ -35,7 +35,7 @@ switch (opcao) {
         Console.WriteLine("Digite sua foto:");
         foto = Console.ReadLine();
         administrador = new Administrador() {
-            NomeUsuario = nomeUsuario,
+            NomeDoUsuario = nomeUsuario,
             Email = email,
             Senha = senha,
             Status = 1,
@@ -49,7 +49,7 @@ switch (opcao) {
         List<Administrador> administradores = administradorADOEF.ListarTodos();
         Console.WriteLine("Lista de Administradores");
         foreach (Administrador administrador1 in administradores) {
-            Console .WriteLine(administrador1.NomeUsuario);
+            Console .WriteLine(administrador1.NomeDoUsuario);
         }
         break;
     case 3:
@@ -65,7 +65,7 @@ switch (opcao) {
         foto = Console.ReadLine();
         /*Administrador*/administrador = new Administrador() {
             Id = id,
-            NomeUsuario = nomeUsuario,
+            NomeDoUsuario = nomeUsuario,
             Email = email,
             Senha = senha,
             Status = 1,

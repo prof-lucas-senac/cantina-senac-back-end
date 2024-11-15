@@ -1,7 +1,9 @@
 public abstract class Postagem {
     public int Id { get; set; }
-    public string Descricao { get; set; }
-    public DateTime DataPublicacao { get; set; }
-    public Usuario Usuario { get; set; }
-    public List<Comentario> Comentarios { get; set; }    
+    public string Conteudo { get; set; }
+    public string DataPublicacao { get; set; }
+        //DateTime
+    public string NomeUsuario { get; set; }
+        //Usuario  Usuario
+    public List<Comentario> Comentarios { get; set; }
 }

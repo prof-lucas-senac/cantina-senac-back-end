@@ -22,7 +22,7 @@ public class TelaCadastroAdministrador : ITela {
         foto = Console.ReadLine();
 
         Administrador administrador = new Administrador() {
-            NomeUsuario = nomeUsuario,
+            NomeDoUsuario = nomeUsuario,
             Email = email,
             Senha = senha,
             Foto = foto,

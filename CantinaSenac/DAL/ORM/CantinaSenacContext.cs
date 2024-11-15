@@ -3,8 +3,9 @@ using Microsoft.EntityFrameworkCore;
 public class CantinaSenacContext : DbContext {
     public DbSet<Administrador> Administrador { get; set; }
     public DbSet<Usuario> Usuario { get; set; }
+    public DbSet<Feedback> Feedback { get; set; }
 
-    string stringConexao = "Server=localhost;Port=3306;Database=CantinaSenacOrm;Uid=root;Pwd=";
+    string stringConexao = "Server=localhost;Port=3306;Database=CantinaSenacOrm;Uid=root;Pwd=Tocomfome12art";
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) {
         optionsBuilder.UseMySql(stringConexao, ServerVersion.AutoDetect(stringConexao));
@@ -13,5 +14,6 @@ public class CantinaSenacContext : DbContext {
     protected override void OnModelCreating(ModelBuilder modelBuilder) {
         modelBuilder.Entity<Usuario>().ToTable("Usuario");
         modelBuilder.Entity<Administrador>().ToTable("Administrador");
+        modelBuilder.Entity<Feedback>().ToTable("Feedback");
     }
 }

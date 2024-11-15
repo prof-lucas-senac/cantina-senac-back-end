@@ -17,7 +17,7 @@ public class TelaLogin : ITela {
         List<Administrador> administradores = administradorDAO.ListarTodos();
 
         foreach(Administrador administrador in administradores) {
-            if (usuario == administrador.NomeUsuario) {
+            if (usuario == administrador.NomeDoUsuario) {
                 Console.WriteLine("Usuário encontrado com sucesso");
             } else {
                 Console.WriteLine("Usuario não encontrado");

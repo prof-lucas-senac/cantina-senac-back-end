@@ -11,7 +11,7 @@ public class AdministradorDAO_ADO {
             "(@nomeUsuario, @email, @senha, @status, @foto)";
 
             MySqlCommand comando = new MySqlCommand(sql, conexao);
-            comando.Parameters.AddWithValue("@nomeUsuario", administrador.NomeUsuario);
+            comando.Parameters.AddWithValue("@nomeUsuario", administrador.NomeDoUsuario);
             comando.Parameters.AddWithValue("@email", administrador.Email);
             comando.Parameters.AddWithValue("@senha", administrador.Senha);
             comando.Parameters.AddWithValue("@status", administrador.Status);
@@ -35,7 +35,7 @@ public class AdministradorDAO_ADO {
 
             while (leitor.Read()) {
                 Administrador administrador = new Administrador() {
-                    NomeUsuario = Convert.ToString(leitor["nomeUsuario"]),
+                    NomeDoUsuario = Convert.ToString(leitor["nomeUsuario"]),
                     Email = Convert.ToString(leitor["email"]),
                     Senha = Convert.ToString(leitor["senha"]),
                     Status = Convert.ToInt32(leitor["status"]),
@@ -62,7 +62,7 @@ public class AdministradorDAO_ADO {
                          "foto = @foto WHERE id = @id;";
 
             MySqlCommand comando = new MySqlCommand(sql, conexao);
-            comando.Parameters.AddWithValue("@nomeUsuario", administrador.NomeUsuario);
+            comando.Parameters.AddWithValue("@nomeUsuario", administrador.NomeDoUsuario);
             comando.Parameters.AddWithValue("@email", administrador.Email);
             comando.Parameters.AddWithValue("@senha", administrador.Senha);
             comando.Parameters.AddWithValue("@status", administrador.Status);
