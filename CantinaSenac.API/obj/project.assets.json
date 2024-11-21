@@ -2329,32 +2329,34 @@
     ]
   },
   "packageFolders": {
-    "/home/youdeserve/.nuget/packages/": {}
+    "C:\\Users\\Prog_Sis\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/youdeserve/workspace/cantina-senac-be-backup (copy)/cantina-senac-back-end/CantinaSenac.API/CantinaSenac.API.csproj",
+      "projectUniqueName": "C:\\workplace\\CantinaSenac\\CantinaSenac.API\\CantinaSenac.API.csproj",
       "projectName": "CantinaSenac.API",
-      "projectPath": "/home/youdeserve/workspace/cantina-senac-be-backup (copy)/cantina-senac-back-end/CantinaSenac.API/CantinaSenac.API.csproj",
-      "packagesPath": "/home/youdeserve/.nuget/packages/",
-      "outputPath": "/home/youdeserve/workspace/cantina-senac-be-backup (copy)/cantina-senac-back-end/CantinaSenac.API/obj/",
+      "projectPath": "C:\\workplace\\CantinaSenac\\CantinaSenac.API\\CantinaSenac.API.csproj",
+      "packagesPath": "C:\\Users\\Prog_Sis\\.nuget\\packages\\",
+      "outputPath": "C:\\workplace\\CantinaSenac\\CantinaSenac.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/youdeserve/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Prog_Sis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/home/youdeserve/workspace/cantina-senac-be-backup (copy)/cantina-senac-back-end/CantinaSenac/CantinaSenac.csproj": {
-              "projectPath": "/home/youdeserve/workspace/cantina-senac-be-backup (copy)/cantina-senac-back-end/CantinaSenac/CantinaSenac.csproj"
+            "C:\\workplace\\CantinaSenac\\CantinaSenac\\CantinaSenac.csproj": {
+              "projectPath": "C:\\workplace\\CantinaSenac\\CantinaSenac\\CantinaSenac.csproj"
             }
           }
         }
@@ -2363,6 +2365,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -2387,7 +2394,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.110/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
