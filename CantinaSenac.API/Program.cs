@@ -24,7 +24,7 @@ app.MapGet("/feedbacks", () => {
     return feedbacks;
 });
 
-app.MapPost("/feedback", ([FromBody] Feedback feedback) => {
+app.MapPost("/feedbacks", ([FromBody] Feedback feedback) => {
     FeedbackDAO feedbackDAO = new FeedbackDAO();
     feedbackDAO.Adicionar(feedback);
     return Results.Ok("Sucesso");
